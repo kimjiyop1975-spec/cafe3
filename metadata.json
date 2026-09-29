@@ -1,0 +1,6 @@
+{
+  "name": "바이브 카페 - 주문 & 카페 게시판",
+  "description": "당신의 하루에 바이브를 더하다. 바이브 카페 모바일 친화 주문서 및 Supabase 스키마 안내.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

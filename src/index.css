@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+body {
+  font-family: '맑은 고딕', 'Malgun Gothic', Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+  background-color: #faf6f0;
+  color: #3d2716;
+}
+
+/* 카페 테마 입력 필드 기본 및 포커스 스타일 */
+.cafe-input {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #d4c2b0;
+  background-color: #ffffff;
+  color: #332211;
+  font-size: 15px;
+  transition: all 0.2s ease-in-out;
+  outline: none;
+}
+
+.cafe-input:focus {
+  border-color: #6b4226;
+  box-shadow: 0 0 0 3px rgba(107, 66, 38, 0.18);
+}
+
+.cafe-input:hover:not(:focus) {
+  border-color: #b08d74;
+}
+
+/* 스크롤바 커스텀 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: #c8b29e;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #f3ece2;
+}
